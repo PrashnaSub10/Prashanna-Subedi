@@ -23,3 +23,7 @@ dist/
 *.sln
 *.sw?
 *.sublime-workspace
+
+# Custom Documentation
+docs/
+DEPLOYMENT_SEO_DOCS.md
