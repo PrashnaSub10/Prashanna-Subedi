@@ -1,0 +1,155 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_backend": "Backend",
+                    "category_fullstack": "Full Stack"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_backend", "category_fullstack"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_backend",
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "#092E20", "fill": "#44B78B"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Enterprise Authentication System",
+                            "text": "A comprehensive <b>Django-based authentication system</b> with advanced features including <b>JWT authentication</b>, role-based access control, multi-database support, email verification, OTP password reset, and comprehensive audit logging. Built with security best practices and production-ready architecture.",
+                            "tags": ["Django", "Python", "JWT", "RBAC", "Security", "REST API", "Celery", "MSSQL"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_backend",
+                    "img": "",
+                    "faIcon": "fa-solid fa-users-gear",
+                    "faIconColors": {"bg": "#44B78B", "fill": "#092E20"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Authorization & Policy Engine",
+                            "text": "Implemented a sophisticated <b>authorization system</b> using Oso policy engine with <b>attribute-based access control</b>, permission caching, audit trails, and real-time permission evaluation. Supports complex hierarchical roles and dynamic permission assignment.",
+                            "tags": ["Oso", "ABAC", "Django", "Authorization", "Policies"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_backend",
+                    "img": "",
+                    "faIcon": "fa-solid fa-envelope-circle-check",
+                    "faIconColors": {"bg": "#37814A", "fill": "#FFFFFF"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Async Email Service with Celery",
+                            "text": "Built a robust <b>asynchronous email service</b> using Celery for background task processing. Features include email verification, OTP generation, template rendering, retry mechanisms, and comprehensive error handling with audit logging.",
+                            "tags": ["Celery", "Redis", "Email", "Async", "Django"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_backend",
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#CC2927", "fill": "#FFFFFF"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Multi-Database Architecture",
+                            "text": "Designed and implemented a <b>multi-database system</b> with MSSQL integration, custom database routers, stored procedure integration, and optimized query performance. Includes comprehensive migration strategies and data integrity checks.",
+                            "tags": ["MSSQL", "Database Design", "Django ORM", "SQL"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_backend",
+                    "img": "",
+                    "faIcon": "fa-solid fa-file-shield",
+                    "faIconColors": {"bg": "#FF6B6B", "fill": "#FFFFFF"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Security Middleware Suite",
+                            "text": "Developed custom <b>security middleware</b> including CRUD audit logging, file upload security, rate limiting, anti-spam protection, and comprehensive request/response validation. Implements OWASP security guidelines.",
+                            "tags": ["Security", "Middleware", "Django", "OWASP"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_fullstack",
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "#4A90E2", "fill": "#FFFFFF"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Report Builder System",
+                            "text": "Created a dynamic <b>report generation system</b> with customizable filters, stored procedure integration, data export capabilities, and real-time data visualization. Built with Django backend and React frontend.",
+                            "tags": ["Django", "React", "Reports", "Data Visualization"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

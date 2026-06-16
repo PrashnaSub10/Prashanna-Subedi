@@ -1,0 +1,292 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Prashanna Subedi!}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Location",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "prasannasubedi30@gmail.com",
+                    "link": {
+                        "href": "mailto:prasannasubedi30@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@PrashnaSub10",
+                    "link": {
+                        "href": "https://github.com/PrashnaSub10",
+                        "tooltipString": "see_on_github"
+                    },
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "{{A little bit}} about me..."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a {{Python Django}} developer with a passion for building [[secure and scalable backend systems]]. I hold a B.Sc. in Information Technology and have hands-on experience developing enterprise-grade authentication systems.</p><p>My expertise includes JWT authentication, role-based access control, multi-database architectures, and async task processing with Celery. I enjoy solving complex problems and implementing security best practices in production environments.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "Client {{testimonials}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Rochak Adhikari",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/rochak-jee.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Senior DBA at IME Life Insurance Co. Ltd.",
+                            "text": "I'm really fascinated by the mindset of this lad. His critical thinking and problem-solving skills landed quick solutions to our business domain."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Sandeep Subedi",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/sandeep-sir.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Departmental Head at IME Life Insurance Co. Ltd.",
+                            "text": "His ability to evolve from a backend developer to an automation visionary is something to be admired. He brings unique perspective to the table and is a hardworking man. "
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Basant Balayar",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-male-2.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer at IME Life Insurance Co. Ltd.",
+                            "text": "Give this guy a task to build APIs then he'll be building a platform of API scaffolding. Automation DNA is hard-wired in his soul."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal {{interests}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-pencil",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Drawing}} & Sketching",
+                            "text": "Exploring creativity through pencil sketches and digital art."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-music",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Singing}} with Harmonium",
+                            "text": "Practicing classical and devotional music with harmonium."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{AI}} & LLMs",
+                            "text": "Exploring artificial intelligence and large language models."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-tree",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Nature}} Lover",
+                            "text": "Enjoying hiking, photography, and connecting with nature."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Reading}} Tech Blogs",
+                            "text": "Staying updated with latest tech trends and best practices."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Open Source}} Contributions",
+                            "text": "Contributing to Python and Django open source projects."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
