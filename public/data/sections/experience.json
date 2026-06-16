@@ -1,0 +1,54 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "#092E20", "fill": "#44B78B"},
+                    "dateStart": {"year": 2024, "month": 6},
+                    "dateEnd": {"year": 2025, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "{{Django}} Backend Developer",
+                            "province": "",
+                            "country": "",
+                            "institution": "Freelance / Personal Projects",
+                            "text": "Developed a comprehensive [[enterprise-grade authentication system]] using Python Django with advanced features:",
+                            "list": [
+                                "Multi-database architecture with MSSQL integration",
+                                "JWT-based authentication with refresh token mechanism",
+                                "Role-based access control (RBAC) with Oso policy engine",
+                                "Celery task queue for async operations",
+                                "RESTful API design with Django REST Framework",
+                                "Email verification and OTP-based password reset",
+                                "Comprehensive audit logging and security middleware",
+                                "Docker containerization for deployment"
+                            ],
+                            "tags": ["Python", "Django", "REST API", "JWT", "Celery", "MSSQL", "Docker", "Security"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

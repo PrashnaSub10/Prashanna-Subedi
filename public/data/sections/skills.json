@@ -1,0 +1,295 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Backend}} Development",
+                            "text": "Building scalable and secure backend systems with Django and Python!"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-lock",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Authentication}} & Security",
+                            "text": "Implementing enterprise-grade authentication and authorization systems!"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Database}} Management",
+                            "text": "Designing and optimizing databases with MSSQL and PostgreSQL!"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{REST}} APIs",
+                            "text": "Creating robust and well-documented RESTful API services!"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{DevOps}} & Deployment",
+                            "text": "Containerizing applications and managing production deployments!"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Backend Stack"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": "#306998"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Expert in Python for backend development and automation.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-d",
+                    "faIconColors": {"bg": "", "fill": "#092E20"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Django",
+                            "text": "Building enterprise applications with Django framework.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#CC2927"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "MSSQL / PostgreSQL",
+                            "text": "Database design, optimization, and stored procedures.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-key",
+                    "faIconColors": {"bg": "", "fill": "#000000"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 88,
+                    "locales": {
+                        "en": {
+                            "title": "JWT & OAuth",
+                            "text": "Implementing secure authentication and authorization.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "date": {"year": 2024, "month": 7},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "Containerization and orchestration for deployment.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-tasks",
+                    "faIconColors": {"bg": "", "fill": "#37814A"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Celery",
+                            "text": "Async task processing and background job management.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "Version control and collaborative development.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "", "fill": "#FF6B6B"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Security Best Practices",
+                            "text": "OWASP guidelines, encryption, and secure coding.",
+                            "level": ""
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Django MVT (Minimal)"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "", "fill": "#E34F26"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "Basic Django templates and HTML structure.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {"bg": "", "fill": "#1572B6"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "Basic styling for Django templates.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {"bg": "", "fill": "#7952B3"},
+                    "date": {"year": 2024, "month": 6},
+                    "percentage": 55,
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "text": "Using Bootstrap for Django admin customization.",
+                            "level": ""
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

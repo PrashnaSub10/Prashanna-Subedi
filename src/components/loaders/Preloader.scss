@@ -1,0 +1,77 @@
+@import "/src/styles/extend.scss";
+
+div.preloader-window {
+    position: fixed;
+    z-index: $z-index-loader;
+    background-color: $loader-background;
+    color: $loader-contrast;
+
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: preloader-bg-fade 3.5s forwards;
+}
+
+@keyframes preloader-bg-fade {
+    0%, 65% {
+        background-color: $loader-background;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+div.preloader-window-hidden {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+    pointer-events: none;
+}
+
+div.preloader-window-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+    user-select: none;
+}
+
+div.preloader-window-info {
+    margin-top: 30px;
+    transition: 0.3s opacity ease-out, 0.3s transform ease-out;
+}
+
+div.preloader-window-info-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: none;
+}
+
+div.preloader-window-info-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    h5 {
+        font-family: 'Georgia', serif;
+        font-weight: 700;
+        font-size: 4rem;
+        letter-spacing: 0.05em;
+        margin-top: 20px;
+    }
+}
+
+div.preloader-window-info-developer {
+    display: none;
+}
+
+div.preloader-window-logo {
+    display: none !important;
+    visibility: hidden !important;
+}
